@@ -1,0 +1,965 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityGames/Gunner Dungeon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52317
+Successfully changed project path to: D:/UnityGames/Gunner Dungeon
+D:/UnityGames/Gunner Dungeon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityGames/Gunner Dungeon/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8088 MB
+    Driver:   30.0.14.7168
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity Hub/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001540 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 81.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.332 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.3 MB.
+System memory in use after: 118.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2705.
+Total: 1.802600 ms (FindLiveObjects: 0.143200 ms CreateObjectMapping: 0.072800 ms MarkObjects: 1.533300 ms  DeleteObjects: 0.052600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Dungeon/Rooms/MyRooms/MediumRoom_MyRooms_1.prefab
+  artifactKey: Guid(d8d895d25e2a98341b66cd986a5e02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/MyRooms/MediumRoom_MyRooms_1.prefab using Guid(d8d895d25e2a98341b66cd986a5e02e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dafc2ddec6fdae6075d4baf6316c940') in 0.054707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 176.725406 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(6ae8b6dc205e9f549904b2594b6b9cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(6ae8b6dc205e9f549904b2594b6b9cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecc40c58aafa8e5ddd2b42d28819fd2') in 0.005535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.062084 seconds.
+  path: Assets/Scripts/Enums
+  artifactKey: Guid(4a027119c26d0eb41bfebab675750a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums using Guid(4a027119c26d0eb41bfebab675750a79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554697dca30eba7bb6bfd2aefb7cabbb') in 0.005838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.822182 seconds.
+  path: Assets/Scripts/Enums/Enums.cs
+  artifactKey: Guid(8ac86b1c67598af4580c11eb22c40d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enums/Enums.cs using Guid(8ac86b1c67598af4580c11eb22c40d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed161ef67b48b577f9c7892ec34019a3') in 0.063161 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001506 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.4 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2708.
+Total: 2.121800 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.129300 ms MarkObjects: 1.714900 ms  DeleteObjects: 0.019600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.748 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2120 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.4 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2710.
+Total: 1.790900 ms (FindLiveObjects: 0.156600 ms CreateObjectMapping: 0.082500 ms MarkObjects: 1.533400 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.282974 seconds.
+  path: Assets/Scripts/Dungeon
+  artifactKey: Guid(7156d905581db07488d67e9f740a1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon using Guid(7156d905581db07488d67e9f740a1930) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed7aba3e8221c1d9fa24677592c61f7') in 0.009579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.178625 seconds.
+  path: Assets/Scripts/Dungeon/Doorway.cs
+  artifactKey: Guid(f8242fdb386959349af96ac0937ceb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon/Doorway.cs using Guid(f8242fdb386959349af96ac0937ceb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4109f9c54a6960b22b0928e2b602ebf2') in 0.007007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.738 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 1.784000 ms (FindLiveObjects: 0.139400 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.555700 ms  DeleteObjects: 0.015000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001499 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2121 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2715.
+Total: 2.034800 ms (FindLiveObjects: 0.236600 ms CreateObjectMapping: 0.134600 ms MarkObjects: 1.644400 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 350.437695 seconds.
+  path: Assets/Scripts/Dungeon/Doorway.cs
+  artifactKey: Guid(f8242fdb386959349af96ac0937ceb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon/Doorway.cs using Guid(f8242fdb386959349af96ac0937ceb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b094e24a8e80b163ed8b32c2152b6b3d') in 0.004089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.189878 seconds.
+  path: Assets/Scripts/Dungeon/RoomTemplateSO.cs
+  artifactKey: Guid(cfa8a5df08389d7439b659ef5e3b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon/RoomTemplateSO.cs using Guid(cfa8a5df08389d7439b659ef5e3b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c242954b1e384e6692f7826fade6acd') in 0.010165 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.755 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2718.
+Total: 1.808500 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.075300 ms MarkObjects: 1.572800 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001466 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.747 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 2.180300 ms (FindLiveObjects: 0.158100 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.924300 ms  DeleteObjects: 0.013100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 683.290666 seconds.
+  path: Assets/Scripts/Dungeon/RoomTemplateSO.cs
+  artifactKey: Guid(cfa8a5df08389d7439b659ef5e3b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon/RoomTemplateSO.cs using Guid(cfa8a5df08389d7439b659ef5e3b3154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdd8a057d2db50a47ab7ad3cda1c27b') in 0.005205 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.718 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.6 MB.
+System memory in use after: 109.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 1.865000 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.619600 ms  DeleteObjects: 0.013700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.962120 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs
+  artifactKey: Guid(29564cc71d985214d849b70580088bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs using Guid(29564cc71d985214d849b70580088bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5a36081cc64ff7b6c8ee998cfe7cea') in 0.008208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.259964 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_1.asset
+  artifactKey: Guid(b497cf51860cc124088acdf3dfcc4bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_1.asset using Guid(b497cf51860cc124088acdf3dfcc4bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6f8a061be2a2be565e74c797e37a6d') in 0.050238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.132090 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_2.asset
+  artifactKey: Guid(9927e94b574775f4c83d6ac8ef1a7ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_2.asset using Guid(9927e94b574775f4c83d6ac8ef1a7ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bb1172b077d5168f2c87d06aaed154') in 0.009279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.284740 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_2.asset
+  artifactKey: Guid(aeaa238dda2b934409291731e7646e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_2.asset using Guid(aeaa238dda2b934409291731e7646e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed03f2a6f54ef0bc51ef277338de9139') in 0.009602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.387918 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_1.asset
+  artifactKey: Guid(5e10298487db4a548a9e425ea037c915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_1.asset using Guid(5e10298487db4a548a9e425ea037c915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122248ba920eb71da7c5ea32999136e0') in 0.006955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038552 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_3.asset
+  artifactKey: Guid(ebc7898f88cf218449b384f033e86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_3.asset using Guid(ebc7898f88cf218449b384f033e86675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e3bf32beec6c2a0cffdb0d71f6fd1b') in 0.007178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028086 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_4.asset
+  artifactKey: Guid(ead9fb8d1d6f0dd48886b54083b20f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_ChestRoom_Catacombs_4.asset using Guid(ead9fb8d1d6f0dd48886b54083b20f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314e6f91abaf6dac6d1a759e13f6ac15') in 0.006549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026195 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_1.asset
+  artifactKey: Guid(17aab39e60e31b44cbb99c260366f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_1.asset using Guid(17aab39e60e31b44cbb99c260366f725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f1a765af0f6f8aa2473fd0d99c9951') in 0.005956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026166 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_2.asset
+  artifactKey: Guid(75e9ed4d33bf76c439c799075b936c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_2.asset using Guid(75e9ed4d33bf76c439c799075b936c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6527304f5583d04e3241843ba1d738') in 0.006592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015587 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_3.asset
+  artifactKey: Guid(58168ebb0df392f41b061a0c6b25da05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_3.asset using Guid(58168ebb0df392f41b061a0c6b25da05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c6dcb8b59bb5d61052f8709eb87bb3') in 0.006183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023071 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_4.asset
+  artifactKey: Guid(230557191ef7e66449fde6cecaf858cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_4.asset using Guid(230557191ef7e66449fde6cecaf858cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f48eb013ba07c31d7e901ac54195861') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017660 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_5.asset
+  artifactKey: Guid(a9de631861c958a4b8b6f5da0f8d45a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorEW_Catacombs_5.asset using Guid(a9de631861c958a4b8b6f5da0f8d45a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2222ff589090ccc0b8b43f54626fbe84') in 0.006454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023143 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_1.asset
+  artifactKey: Guid(74c9dcaed5ec2f949878a19a2067a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_1.asset using Guid(74c9dcaed5ec2f949878a19a2067a840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f0e22b29c6f0337f3df4f9c1404b8') in 0.006221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031329 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_2.asset
+  artifactKey: Guid(8560fcec9e5cd454aae62d7775c44da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_2.asset using Guid(8560fcec9e5cd454aae62d7775c44da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4c444f9a8c8c78f4d29596caa9095e') in 0.006086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022846 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_3.asset
+  artifactKey: Guid(1d5c4c4b7468b7749bced9ffcf6799be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_3.asset using Guid(1d5c4c4b7468b7749bced9ffcf6799be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5589f0f978b4137e6c5f80587efc574c') in 0.006751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.966779 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms
+  artifactKey: Guid(175e42b080f380341b5b26ba561e6adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms using Guid(175e42b080f380341b5b26ba561e6adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a80aef32568f1097911922011a8817c2') in 0.005268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.361083 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Catacombs/BossRoom_Catacombs_1.prefab
+  artifactKey: Guid(9fb6f8f004f241940b9e1447a0f4570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Catacombs/BossRoom_Catacombs_1.prefab using Guid(9fb6f8f004f241940b9e1447a0f4570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25203a5c8d963cc7c8ccc2cb05fecd0d') in 0.021222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.005208 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery/BossRoom_Sorcery_1.prefab
+  artifactKey: Guid(5a5cf23fa59a42046bbbd938af607c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery/BossRoom_Sorcery_1.prefab using Guid(5a5cf23fa59a42046bbbd938af607c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc7542ebcddab956c4be7567c108493') in 0.009173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.466030 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms
+  artifactKey: Guid(696a2174fa59c344f8ea5d4163ad8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms using Guid(696a2174fa59c344f8ea5d4163ad8ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddfe66745f75722910eacf5f3664e5a') in 0.002419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804335 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/MyRooms/CorridorEW_MyRooms_1.prefab
+  artifactKey: Guid(d299f834de754694aa1908456374b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/MyRooms/CorridorEW_MyRooms_1.prefab using Guid(d299f834de754694aa1908456374b3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5856c43b5881a6cc0210f4d80bc1b0') in 0.007413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.468470 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/MyRooms/CorridorNS_MyRooms_1.prefab
+  artifactKey: Guid(0e5022fad378bee44a94ecec498581b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/MyRooms/CorridorNS_MyRooms_1.prefab using Guid(0e5022fad378bee44a94ecec498581b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77330d29f31417dc8087c0cfe9b2fea6') in 0.007069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.864021 seconds.
+  path: Assets/Scripts/Dungeon/RoomTemplateSO.cs
+  artifactKey: Guid(2708e4084c4a1534ba646096300f778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dungeon/RoomTemplateSO.cs using Guid(2708e4084c4a1534ba646096300f778c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88d52b04a88026c88b9988005eca265') in 0.002204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.791875 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms
+  artifactKey: Guid(a842fd883f792044ab83a23201d18796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms using Guid(a842fd883f792044ab83a23201d18796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0521c8773a8ccf2db32bfd09e45454e9') in 0.006144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.361108 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_CorridorEW_MyRooms_1.asset
+  artifactKey: Guid(22c842b28e4852e4c915afbd57dd2c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_CorridorEW_MyRooms_1.asset using Guid(22c842b28e4852e4c915afbd57dd2c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) doorwayList has no values in object Room_CorridorEW_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:98)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+spawnPositionArray has no values in object Room_CorridorEW_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:101)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+ -> (artifact id: '9749c64a5d22e5752d58943c1ff3a196') in 0.007429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 196.403701 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_CorridorNS_MyRooms_1.asset
+  artifactKey: Guid(085a3165e18e8954896e644762f5a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_CorridorNS_MyRooms_1.asset using Guid(085a3165e18e8954896e644762f5a52a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) doorwayList has no values in object Room_CorridorNS_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:98)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+spawnPositionArray has no values in object Room_CorridorNS_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:101)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+ -> (artifact id: '5cbb75c65f30297f0070d9a68aaebb1e') in 0.006817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.485760 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery
+  artifactKey: Guid(d2c8037e50151fa449577305456cbadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery using Guid(d2c8037e50151fa449577305456cbadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91209c4a09c23b501d051416e1e141af') in 0.006172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.325835 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery
+  artifactKey: Guid(10b86ee575283d242ae877b297d9e26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery using Guid(10b86ee575283d242ae877b297d9e26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187378c09a55355a4953d2382c045251') in 0.003117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.811427 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_MediumRoom_MyRooms_1.asset
+  artifactKey: Guid(584daa90ee042a94cbeaaf880a1bdb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/MyRooms/Room_MediumRoom_MyRooms_1.asset using Guid(584daa90ee042a94cbeaaf880a1bdb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) doorwayList has no values in object Room_MediumRoom_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:98)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+spawnPositionArray has no values in object Room_MediumRoom_MyRooms_1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HelperUtilities:ValidateCheckEnumerableValues (UnityEngine.Object,string,System.Collections.IEnumerable) (at Assets/Scripts/Utilities/HelperUtilities.cs:44)
+RoomTemplateSO:OnValidate () (at Assets/Scripts/Dungeon/RoomTemplateSO.cs:101)
+
+(Filename: Assets/Scripts/Utilities/HelperUtilities.cs Line: 44)
+
+ -> (artifact id: '65b25738b28f3e4daa82aedeacb61ba2') in 0.006003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 402.124889 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Catacombs/BossRoom_Catacombs_2.prefab
+  artifactKey: Guid(7fcc67dc1627fff47bfa86f5e4c58437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Catacombs/BossRoom_Catacombs_2.prefab using Guid(7fcc67dc1627fff47bfa86f5e4c58437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155fe86ae987c993e078bd84808c578a') in 0.010418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.107936 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Catacombs
+  artifactKey: Guid(29d77d3999e59904586a3484cc95f8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Catacombs using Guid(29d77d3999e59904586a3484cc95f8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e567394a619513d77e3d16d40fdd251') in 0.002700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.872521 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_4.asset
+  artifactKey: Guid(0570548b50ed26c469aa21fbd2cce109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_4.asset using Guid(0570548b50ed26c469aa21fbd2cce109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df1374c73e5776ed08b29df4ae6f428') in 0.007420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.173212 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_5.asset
+  artifactKey: Guid(f2a366d151026cc4ab8d50cdfd60529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_CorridorNS_Catacombs_5.asset using Guid(f2a366d151026cc4ab8d50cdfd60529e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26abe38dccb3b855ae81a40eed4b227') in 0.006535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170220 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_1.asset
+  artifactKey: Guid(3cdc996eae718644dad8dad24ae2c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_1.asset using Guid(3cdc996eae718644dad8dad24ae2c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0008961a61b6f7c422d8379652efff') in 0.007736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.517129 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_2.asset
+  artifactKey: Guid(03fb8e6e180566844b9c3942a093676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_2.asset using Guid(03fb8e6e180566844b9c3942a093676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ece2a7b5ae5097076575525403b2f1') in 0.008507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009542 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_3.asset
+  artifactKey: Guid(44aecdcc3db913e4499e1717a8957c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_3.asset using Guid(44aecdcc3db913e4499e1717a8957c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc2ac62b3cf9a5736be28b75f6e4733') in 0.006910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013280 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_1.asset
+  artifactKey: Guid(5ec7c3fd29261984abd0f0a91400645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_1.asset using Guid(5ec7c3fd29261984abd0f0a91400645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08d2d7d23c417c45db31e52adb74f80') in 0.007942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031026 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_2.asset
+  artifactKey: Guid(162bb1ef7e418cb45b8a9972883291e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_2.asset using Guid(162bb1ef7e418cb45b8a9972883291e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05406e764a86b623182e82cc9cba79b9') in 0.009663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007767 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_3.asset
+  artifactKey: Guid(441b01f46e3eeb442ade8694ca990dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_3.asset using Guid(441b01f46e3eeb442ade8694ca990dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de846a66c28d66d7f4d646cdaa5f5dca') in 0.008504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012028 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_4.asset
+  artifactKey: Guid(e9398e3d34710984f9bc2ddf731aaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_4.asset using Guid(e9398e3d34710984f9bc2ddf731aaaf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd380c131fe9e138646738d730eac91b0') in 0.007942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034563 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_5.asset
+  artifactKey: Guid(6744ab19da7482a498a77a8f8134b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_5.asset using Guid(6744ab19da7482a498a77a8f8134b14d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbfbad4f29f61758ebe7884249022b40') in 0.008224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016938 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_1.asset
+  artifactKey: Guid(a513c365c6072fa4c9068779c5d2173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_1.asset using Guid(a513c365c6072fa4c9068779c5d2173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dce3ce5c8d802acd10f1a87dd079d41') in 0.007031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024080 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_2.asset
+  artifactKey: Guid(a1c147aa88a50d64dbc012a46f5d011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_2.asset using Guid(a1c147aa88a50d64dbc012a46f5d011c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8405ff8999126ff50f6802d5363ebf') in 0.007973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017683 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_3.asset
+  artifactKey: Guid(ffb5abf059fa3cb4187f05ee5225308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_3.asset using Guid(ffb5abf059fa3cb4187f05ee5225308f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee379f9ad077a30acce33d890123a28f') in 0.007418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017798 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_4.asset
+  artifactKey: Guid(68ce17f0d8ab2134a9bbda3b2b5c5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_4.asset using Guid(68ce17f0d8ab2134a9bbda3b2b5c5c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a9c0b1ec182053eb90ad69f919e40d') in 0.006869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018058 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_5.asset
+  artifactKey: Guid(a1fc9a74671f47140ab0810c460f9623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_MediumRoom_Catacombs_5.asset using Guid(a1fc9a74671f47140ab0810c460f9623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab1f0ea607471b64425628455478e43') in 0.007331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019291 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_1.asset
+  artifactKey: Guid(1cbc835c305513640970724d8b4d26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_1.asset using Guid(1cbc835c305513640970724d8b4d26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1e0527b1184d9982e86fcea3a70648') in 0.006709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031704 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_2.asset
+  artifactKey: Guid(6de62b1aab2953146a354bd9e5f255d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_2.asset using Guid(6de62b1aab2953146a354bd9e5f255d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfe802c9c7d5f66faba778c079acca1') in 0.006944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031202 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_3.asset
+  artifactKey: Guid(ca3ebf2399132f74589db4539c90168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_3.asset using Guid(ca3ebf2399132f74589db4539c90168f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d7ee53318cd97c0008ec01f33fa8b5a') in 0.007164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017587 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_4.asset
+  artifactKey: Guid(f7eb3d585fba40941805d195e7ca6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_4.asset using Guid(f7eb3d585fba40941805d195e7ca6a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a8154733673bdda60331ab6c6b7c2') in 0.006887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017791 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_5.asset
+  artifactKey: Guid(38e938fd0392ecd4f859df7c1a9a4371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_5.asset using Guid(38e938fd0392ecd4f859df7c1a9a4371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b8e7e1814e21f87839c81fbe2e0bfb') in 0.006559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.589038 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_BossRoom_Sorcery_1.asset
+  artifactKey: Guid(93d5a19f4b6aace49922793f3fb19975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_BossRoom_Sorcery_1.asset using Guid(93d5a19f4b6aace49922793f3fb19975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13c2e1f5f588eda05623cc60a15bdbd1') in 0.015470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.255176 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_BossRoom_Sorcery_2.asset
+  artifactKey: Guid(c78573f3520f5964bab250658e509661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_BossRoom_Sorcery_2.asset using Guid(c78573f3520f5964bab250658e509661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf00be037edd6a73d7cf8a1704a1cc5') in 0.008523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.776250 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_1.asset
+  artifactKey: Guid(a78e57a22b8441a4d920713690bfbe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_1.asset using Guid(a78e57a22b8441a4d920713690bfbe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc3a664686afc8af78d2af415297d26') in 0.006847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.715961 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_4.asset
+  artifactKey: Guid(330f1b56fd6227046bea31cbb200290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_4.asset using Guid(330f1b56fd6227046bea31cbb200290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189bc405ec205f7c7c95335c01f830bd') in 0.006706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.554077 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_2.asset
+  artifactKey: Guid(f3e9b41bf268eac4ea960aa8e5af4804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_2.asset using Guid(f3e9b41bf268eac4ea960aa8e5af4804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a1e451d2a2550b7c2261b3edb47131') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.520338 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_3.asset
+  artifactKey: Guid(ad6e0cc120e23c54b80d117e127372e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_3.asset using Guid(ad6e0cc120e23c54b80d117e127372e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd47fc3ebf43debcb07ffbb0eb74fb7') in 0.007958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.130950 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_1.asset
+  artifactKey: Guid(56752574f921b034eaa3d3e844ff1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_1.asset using Guid(56752574f921b034eaa3d3e844ff1ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22e4f91cd0208e914a4f0a9d6035e96') in 0.006949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211651 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_3.asset
+  artifactKey: Guid(f4755a924f6e29844930cae6d7326eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_3.asset using Guid(f4755a924f6e29844930cae6d7326eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ae6a3ebea5db159876794edf5ee480') in 0.007603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.115970 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_1.asset
+  artifactKey: Guid(7cc8b7445e8ed3e4ea17478076e19828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_1.asset using Guid(7cc8b7445e8ed3e4ea17478076e19828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf717f157984eee82233427e8d440f3b') in 0.007248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682418 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_2.asset
+  artifactKey: Guid(c4809859434775c4db43c4fe08eedbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_2.asset using Guid(c4809859434775c4db43c4fe08eedbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14105879e28e3383fd25b7355d08cd8') in 0.006782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.579354 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_1.asset
+  artifactKey: Guid(280684b62d7b40f42906e2da772c5afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_1.asset using Guid(280684b62d7b40f42906e2da772c5afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef707d33750658664df9cb3a8fb5568d') in 0.006542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.118031 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_2.asset
+  artifactKey: Guid(906fd97f0f6852c44910d1255177abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_2.asset using Guid(906fd97f0f6852c44910d1255177abb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0364ac6f14620a1f8dab65037e1952bb') in 0.007590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.554778 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_1.asset
+  artifactKey: Guid(934158f41bf0ecc40a7065c7a6102b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_1.asset using Guid(934158f41bf0ecc40a7065c7a6102b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5016884666609d7ea588414480561926') in 0.008816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594385 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_4.asset
+  artifactKey: Guid(e0918d2cd01cba645864dbdd227dc981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_4.asset using Guid(e0918d2cd01cba645864dbdd227dc981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c38711d49ff8b1f8c33f1aecaba254') in 0.013291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.735312 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_1.asset
+  artifactKey: Guid(230185be96d7b914092070512659522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_1.asset using Guid(230185be96d7b914092070512659522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df90e5a895011da1399ef3e7ac794806') in 0.007826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.097454 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_2.asset
+  artifactKey: Guid(51620dc8214bed842b1d2defc616039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_2.asset using Guid(51620dc8214bed842b1d2defc616039d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '325a69f32782abaf43353f91d3f9e446') in 0.007702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.566820 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_1.asset
+  artifactKey: Guid(c98dffe00f9083e4c92a8c220c948709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_1.asset using Guid(c98dffe00f9083e4c92a8c220c948709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21d1a468e3761b40216e98c05618ac9') in 0.007453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.652619 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_2.asset
+  artifactKey: Guid(c329a45518fe1754391d287e7aaa02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_2.asset using Guid(c329a45518fe1754391d287e7aaa02ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49bf708729a21867b3bf952934faca1') in 0.007497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.790475 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_3.asset
+  artifactKey: Guid(8f2e8c1257758b0489ad62ed09d9091f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_3.asset using Guid(8f2e8c1257758b0489ad62ed09d9091f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f8fa7b27973a60dd4cba100bed7213') in 0.007322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.170541 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_4.asset
+  artifactKey: Guid(862ac49409e294e448e7e972fd522bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_4.asset using Guid(862ac49409e294e448e7e972fd522bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9539cf888d2793aed1c2c11b4ec3c0ae') in 0.007230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.390541 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_5.asset
+  artifactKey: Guid(d9d97240cd7e27742b387cf266456750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_SmallRoom_Sorcery_5.asset using Guid(d9d97240cd7e27742b387cf266456750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2408dd79b91375caff602f71833fc05e') in 0.007596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.304323 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_5.asset
+  artifactKey: Guid(28d0c4990e5f6dd4e9d0a3352c25e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_5.asset using Guid(28d0c4990e5f6dd4e9d0a3352c25e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be89c09d1d2027023dcefdb6498bf48') in 0.008755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033143 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_4.asset
+  artifactKey: Guid(2bafece5e9f1b6640aae23a14277e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_4.asset using Guid(2bafece5e9f1b6640aae23a14277e201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91a9a1bb99865719afca43c0415bc68') in 0.007921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033382 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_3.asset
+  artifactKey: Guid(3216d5965faf72d41bf434dc2f864c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_3.asset using Guid(3216d5965faf72d41bf434dc2f864c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29b4f08b5cfe4bd373be9f5874a5924') in 0.007998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066082 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_5.asset
+  artifactKey: Guid(7a58760313a72b84189318e4bef2c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_5.asset using Guid(7a58760313a72b84189318e4bef2c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f494a14be100e33e9c63dac74d0bae8') in 0.009443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047962 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_3.asset
+  artifactKey: Guid(8c80937928cc656448fce066056b4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_3.asset using Guid(8c80937928cc656448fce066056b4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ddebb1324385683eeea798116d0d64') in 0.010519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028765 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_2.asset
+  artifactKey: Guid(573b1fa2887f838478d2d5638ffc9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_2.asset using Guid(573b1fa2887f838478d2d5638ffc9f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc34f445ce6875479b265c2482baf9c') in 0.010839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045375 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_3.asset
+  artifactKey: Guid(a48785e3b38677c41811296610df8f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_Entrance_Sorcery_3.asset using Guid(a48785e3b38677c41811296610df8f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457c741419ac9aef822d4111ecc8457a') in 0.008756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.079458 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_5.asset
+  artifactKey: Guid(b95efca09bd634245b6bc11a0c9763bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_5.asset using Guid(b95efca09bd634245b6bc11a0c9763bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddf81a8779bc45bd54c2241656d37e5') in 0.006464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025475 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_4.asset
+  artifactKey: Guid(d71d142559b18e54182ecc4a57b8d521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_4.asset using Guid(d71d142559b18e54182ecc4a57b8d521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a929fa7488bd51d011fdaf231d0b4574') in 0.006376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031697 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_3.asset
+  artifactKey: Guid(75f657f003d20ca41a404ce258480556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_3.asset using Guid(75f657f003d20ca41a404ce258480556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07d4a18344f82abf163646e26ea47ae') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.082576 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_5.asset
+  artifactKey: Guid(79b20a79e6e89fe4f91d92187cf9bda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_5.asset using Guid(79b20a79e6e89fe4f91d92187cf9bda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ef24fd0a96c68dcd24f6c5e0d25641') in 0.006496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.032490 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_4.asset
+  artifactKey: Guid(3fe641821de8e5d4aacd3cd6141af9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorEW_Sorcery_4.asset using Guid(3fe641821de8e5d4aacd3cd6141af9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f73f3bb6a4cd36667b59c0c8b94b4e') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 124.420338 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery/Entrance_Sorcery_1.prefab
+  artifactKey: Guid(2adc9f7ccb3fb7f4ebfc672b71d5e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery/Entrance_Sorcery_1.prefab using Guid(2adc9f7ccb3fb7f4ebfc672b71d5e9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9871fba8cfd6d7bd52608fe7c99df1') in 0.007934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.334111 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery/MediumRoom_Sorcery_5.prefab
+  artifactKey: Guid(06437b4f543bb2b4dad9e1f2352b43b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery/MediumRoom_Sorcery_5.prefab using Guid(06437b4f543bb2b4dad9e1f2352b43b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01347c4ae5ecf61f2bf31e1b7f3c4d0') in 0.009278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.149671 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_5.asset
+  artifactKey: Guid(28d0c4990e5f6dd4e9d0a3352c25e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_5.asset using Guid(28d0c4990e5f6dd4e9d0a3352c25e1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4262fd13301d3fd68dbed5ea984b0c19') in 0.006242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.324050 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery/MediumRoom_Sorcery_1.prefab
+  artifactKey: Guid(509ee5cf7bdfc354eba96f9876fc08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery/MediumRoom_Sorcery_1.prefab using Guid(509ee5cf7bdfc354eba96f9876fc08cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68697ac8c967c7730ebc3ab6077f852c') in 0.008714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.080536 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_1.asset
+  artifactKey: Guid(230185be96d7b914092070512659522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_MediumRoom_Sorcery_1.asset using Guid(230185be96d7b914092070512659522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a4c83327899ef30a92c518b782e887') in 0.004368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.185459 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Sorcery/SmallRoom_Sorcery_3.prefab
+  artifactKey: Guid(61d5768d629fdeb4c92d30da9d00d344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Sorcery/SmallRoom_Sorcery_3.prefab using Guid(61d5768d629fdeb4c92d30da9d00d344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9994b70bb51e113d4ea3998dac812c54') in 0.007768 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001449 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.789 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2122 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.0 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 1.726600 ms (FindLiveObjects: 0.143700 ms CreateObjectMapping: 0.077700 ms MarkObjects: 1.493700 ms  DeleteObjects: 0.010900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 395.774386 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_4.asset
+  artifactKey: Guid(330f1b56fd6227046bea31cbb200290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_ChestRoom_Sorcery_4.asset using Guid(330f1b56fd6227046bea31cbb200290c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256bf604966e64d7b30d1d9476111865') in 0.022597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.835579 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_1.asset
+  artifactKey: Guid(934158f41bf0ecc40a7065c7a6102b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_1.asset using Guid(934158f41bf0ecc40a7065c7a6102b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692a0f6e89503ffa68007d0aeca2ca87') in 0.010142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.449248 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_3.asset
+  artifactKey: Guid(8c80937928cc656448fce066056b4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_3.asset using Guid(8c80937928cc656448fce066056b4413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3334d2b63818cf3147067714b04bf2') in 0.010624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613086 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_1.asset
+  artifactKey: Guid(7cc8b7445e8ed3e4ea17478076e19828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_CorridorNS_Sorcery_1.asset using Guid(7cc8b7445e8ed3e4ea17478076e19828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef859ffcb8d204486445b7a3102a8cfb') in 0.006574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.651313 seconds.
+  path: Assets/Prefabs/Dungeon/Rooms/Catacombs/LargeRoom_Catacombs_5.prefab
+  artifactKey: Guid(b04604f793e18b64a92ab7349eeca246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dungeon/Rooms/Catacombs/LargeRoom_Catacombs_5.prefab using Guid(b04604f793e18b64a92ab7349eeca246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff70315e9d97fefafc2a26cfcd51722') in 0.022417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 165.345470 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_2.asset
+  artifactKey: Guid(aeaa238dda2b934409291731e7646e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_BossRoom_Catacombs_2.asset using Guid(aeaa238dda2b934409291731e7646e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bfc3a22bcacd5f6fba606dbc028a47') in 0.008345 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.878716 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_1.asset
+  artifactKey: Guid(3cdc996eae718644dad8dad24ae2c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_1.asset using Guid(3cdc996eae718644dad8dad24ae2c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdcaff3b9ad17843bc560735505f853') in 0.004664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.103488 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_2.asset
+  artifactKey: Guid(03fb8e6e180566844b9c3942a093676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_2.asset using Guid(03fb8e6e180566844b9c3942a093676e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6551ee0ec209cf02dfe89d9d69aa6b') in 0.004085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.639529 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_3.asset
+  artifactKey: Guid(44aecdcc3db913e4499e1717a8957c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_Entrance_Catacombs_3.asset using Guid(44aecdcc3db913e4499e1717a8957c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ed42a545c93fdf823c60d2753527f8') in 0.004380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.941135 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_1.asset
+  artifactKey: Guid(5ec7c3fd29261984abd0f0a91400645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_LargeRoom_Catacombs_1.asset using Guid(5ec7c3fd29261984abd0f0a91400645d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a190fdcedf3514688cc612bb0ab80f6') in 0.005370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.786935 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_1.asset
+  artifactKey: Guid(1cbc835c305513640970724d8b4d26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Catacombs/Room_SmallRoom_Catacombs_1.asset using Guid(1cbc835c305513640970724d8b4d26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba76dbf5a18cc3c12b222cb5808ae82') in 0.007558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.785473 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_4.asset
+  artifactKey: Guid(e0918d2cd01cba645864dbdd227dc981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_4.asset using Guid(e0918d2cd01cba645864dbdd227dc981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bec994d2a2a0051693ddf133eb4584a') in 0.009771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.516127 seconds.
+  path: Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_5.asset
+  artifactKey: Guid(7a58760313a72b84189318e4bef2c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptableObjectAssets/Dungeon/Rooms/Sorcery/Room_LargeRoom_Sorcery_5.asset using Guid(7a58760313a72b84189318e4bef2c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20086ea2235bb96edc750e9464cd7e1e') in 0.010034 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
